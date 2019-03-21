@@ -1,9 +1,6 @@
 using Fiddler;
-using System;
-using System.Collections.ObjectModel;
-using System.Text;
 
-namespace Fiddler.WebTesting
+namespace WsTrustFiddlerWebTestExport.WebTesting
 {
 	public abstract class WebTestPluginDynamicField : IFiddlerWebTestPlugin
 	{

@@ -1,10 +1,10 @@
-using Fiddler.WebTesting;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
+using WsTrustFiddlerWebTestExport.WebTesting;
 
 namespace Fiddler
 {

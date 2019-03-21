@@ -1,9 +1,7 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Fiddler.WebTesting
+namespace WsTrustFiddlerWebTestExport.WebTesting
 {
 	public class FormPostParameterCollection : Collection<FormPostParameter>
 	{

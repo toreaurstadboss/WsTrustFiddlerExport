@@ -1,5 +1,9 @@
 # WSTrustFiddlerWebTestExport
 
+![alt text](labflask.png)
+
+
+
 #### A custom export plugin for Fiddler to target Microsoft Visual Web Test and Load testing framework that provides durable Load and Web Tests against federated environments.
 -------------------------------------------------------------------------------------------------------------------------------
 

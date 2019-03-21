@@ -1,12 +1,12 @@
 using System;
 
-namespace Fiddler.WebTesting
+namespace WsTrustFiddlerWebTestExport.WebTesting
 {
 	public class PreWebTestSaveEventArgs : EventArgs
 	{
-		private Fiddler.WebTesting.FiddlerWebTest m_webTest;
+		private FiddlerWebTest m_webTest;
 
-		public Fiddler.WebTesting.FiddlerWebTest FiddlerWebTest
+		public FiddlerWebTest FiddlerWebTest
 		{
 			get
 			{
@@ -14,7 +14,7 @@ namespace Fiddler.WebTesting
 			}
 		}
 
-		internal PreWebTestSaveEventArgs(Fiddler.WebTesting.FiddlerWebTest WebTest)
+		internal PreWebTestSaveEventArgs(FiddlerWebTest WebTest)
 		{
 			this.m_webTest = WebTest;
 		}

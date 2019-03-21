@@ -1,11 +1,11 @@
-using Fiddler;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Security.Policy;
+using Fiddler;
 
-namespace Fiddler.WebTesting
+namespace WsTrustFiddlerWebTestExport.WebTesting
 {
 	internal class AssemblyHelper
 	{

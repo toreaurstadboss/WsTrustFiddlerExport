@@ -1,10 +1,9 @@
-using Fiddler;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Text;
+using Fiddler;
 
-namespace Fiddler.WebTesting
+namespace WsTrustFiddlerWebTestExport.WebTesting
 {
 	public class WebTestSession
 	{
@@ -20,9 +19,9 @@ namespace Fiddler.WebTesting
 
 		private HeaderCollection m_headers;
 
-		private Fiddler.WebTesting.ExtractionRules m_requestExtractionRules;
+		private ExtractionRules m_requestExtractionRules;
 
-		private Fiddler.WebTesting.ValidationRules m_requestValidationRules;
+		private ValidationRules m_requestValidationRules;
 
 		private bool m_writeToWebTest = true;
 
@@ -66,13 +65,13 @@ namespace Fiddler.WebTesting
 			}
 		}
 
-		public Fiddler.WebTesting.ExtractionRules ExtractionRules
+		public ExtractionRules ExtractionRules
 		{
 			get
 			{
 				if (this.m_requestExtractionRules == null)
 				{
-					this.m_requestExtractionRules = new Fiddler.WebTesting.ExtractionRules();
+					this.m_requestExtractionRules = new ExtractionRules();
 				}
 				return this.m_requestExtractionRules;
 			}
@@ -267,13 +266,13 @@ namespace Fiddler.WebTesting
 			}
 		}
 
-		public Fiddler.WebTesting.ValidationRules ValidationRules
+		public ValidationRules ValidationRules
 		{
 			get
 			{
 				if (this.m_requestValidationRules == null)
 				{
-					this.m_requestValidationRules = new Fiddler.WebTesting.ValidationRules();
+					this.m_requestValidationRules = new ValidationRules();
 				}
 				return this.m_requestValidationRules;
 			}

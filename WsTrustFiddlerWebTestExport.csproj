@@ -5,9 +5,9 @@
     <SchemaVersion>2</SchemaVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <AssemblyName>OpPlan4VSWebTestExport</AssemblyName>
+    <AssemblyName>WsTrustFiddlerWebTestExport</AssemblyName>
     <OutputType>Library</OutputType>
-    <RootNamespace>Fiddler</RootNamespace>
+    <RootNamespace>WsTrustFiddlerWebTestExport</RootNamespace>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -179,9 +179,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Readme.md" />
+    <None Include="WsTrustFiddlerWebTestExport.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Fiddler\Fiddler.exe" />
+    <Content Include="labflask.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

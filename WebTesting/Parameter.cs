@@ -1,6 +1,4 @@
-using System;
-
-namespace Fiddler.WebTesting
+namespace WsTrustFiddlerWebTestExport.WebTesting
 {
 	public abstract class Parameter
 	{

@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace Fiddler.WebTesting
+namespace WsTrustFiddlerWebTestExport.WebTesting
 {
 	public class PluginClassReference
 	{

@@ -1,11 +1,9 @@
-using Fiddler;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Diagnostics;
 using System.Windows.Forms;
+using Fiddler;
 
-namespace Fiddler.WebTesting
+namespace WsTrustFiddlerWebTestExport.WebTesting
 {
 	[ProfferFormat("OpPlan 4 Visual Studio WebTest", "Parameterized SAML request. OpPlan 4 XML WebTest file supported by Microsoft Visual Studio WebTest 2010+.")]
 	public class VSTS2010 : ISessionExporter, IDisposable

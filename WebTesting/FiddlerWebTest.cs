@@ -1,17 +1,11 @@
-using Fiddler;
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Collections.Specialized;
-using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Text;
-using System.Threading;
 using System.Windows.Forms;
 using System.Xml;
+using Fiddler;
 
-namespace Fiddler.WebTesting
+namespace WsTrustFiddlerWebTestExport.WebTesting
 {
     public class FiddlerWebTest
     {

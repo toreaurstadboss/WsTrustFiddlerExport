@@ -7,9 +7,9 @@ using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCopyright("Copyright ©2003 - 2018 Telerik AD. All rights reserved.")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyTitle("VSWebTestExporter")]
+[assembly: AssemblyCopyright("Copyright ©2003 - 2019 Tore Aurstad IT. All rights reserved.")]
+[assembly: AssemblyDescription("Durable Load and Web Tests against protected federated environments in Fiddler by parameterizing WS Trust SAML token.")]
+[assembly: AssemblyTitle("WsTrustFiddlerWebTestExport")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyVersion("2.6.0.0")]
 [assembly: CompilationRelaxations(8)]
@@ -18,3 +18,5 @@ using System.Runtime.Versioning;
 [assembly: NeutralResourcesLanguage("en-US")]
 [assembly: RequiredVersion("2.6.0.0")]
 [assembly: RuntimeCompatibility(WrapNonExceptionThrows=true)]
+[assembly: AssemblyCompany("Tore Aurstad IT")]
+

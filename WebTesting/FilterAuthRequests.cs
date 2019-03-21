@@ -1,8 +1,4 @@
-using Fiddler;
-using System;
-using System.Collections.ObjectModel;
-
-namespace Fiddler.WebTesting
+namespace WsTrustFiddlerWebTestExport.WebTesting
 {
 	public class FilterAuthRequests : IFiddlerWebTestPlugin
 	{
