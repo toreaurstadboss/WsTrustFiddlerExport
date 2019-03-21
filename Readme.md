@@ -3,6 +3,8 @@
 #### A custom export plugin for Fiddler to target Microsoft Visual Web Test and Load testing framework that provides durable Load and Web Tests against federated environments.
 -------------------------------------------------------------------------------------------------------------------------------
 
+This version targets Fiddler version *5.0.20182.28034* or similar (5.0.x or perhaps newer versions, I have not tested this out). It might work with similar versions to 5.0.x or newer, bundled with this source code is 
+the Fiddler.exe file in the Fiddler folder of this repository.
 
 This repository contains a customized export plug-in for Visual Studio Web Testing and Load Framwork for http(s) requests and their responses also known
 in Fiddler as "sessions". These sessions captured in Fiddler is transformed - where the export pluging exchanges the values 
