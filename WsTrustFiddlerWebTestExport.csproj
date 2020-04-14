@@ -230,6 +230,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Binaries\Readme.md" />
     <None Include="Nugetpack.cmd" />
     <None Include="packages.config" />
     <None Include="Readme.md" />
@@ -237,10 +238,25 @@
     <None Include="WsTrustFiddlerWebTestExport.nuspec" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Binaries\Fiddler.exe" />
+    <Content Include="Binaries\Microsoft.MSXML.dll" />
+    <Content Include="Binaries\Microsoft.VisualStudio.OLE.Interop.dll" />
+    <Content Include="Binaries\Microsoft.VisualStudio.OLE.Interop.xml" />
+    <Content Include="Binaries\Microsoft.VisualStudio.Shell.Interop.8.0.dll" />
+    <Content Include="Binaries\Microsoft.VisualStudio.Shell.Interop.8.0.xml" />
+    <Content Include="Binaries\Microsoft.VisualStudio.Shell.Interop.dll" />
+    <Content Include="Binaries\Microsoft.VisualStudio.Shell.Interop.xml" />
+    <Content Include="Binaries\Microsoft.VisualStudio.TextManager.Interop.8.0.dll" />
+    <Content Include="Binaries\Microsoft.VisualStudio.TextManager.Interop.8.0.xml" />
+    <Content Include="Binaries\Microsoft.VisualStudio.TextManager.Interop.dll" />
+    <Content Include="Binaries\Microsoft.VisualStudio.TextManager.Interop.xml" />
+    <Content Include="Binaries\WsTrustFiddlerWebTestExport.dll" />
+    <Content Include="Binaries\WsTrustFiddlerWebTestExport.pdb" />
     <Content Include="Fiddler\Fiddler.exe" />
     <Content Include="labflask.png" />
     <Content Include="Nuget\nuget.exe" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\NuGet.VisualStudio.4.5.0\build\NuGet.VisualStudio.targets" Condition="Exists('packages\NuGet.VisualStudio.4.5.0\build\NuGet.VisualStudio.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
